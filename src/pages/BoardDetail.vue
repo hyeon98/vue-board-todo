@@ -70,9 +70,9 @@ onMounted(load);
            아래 버튼들의 이벤트 핸들러 연결을 확인하고,
            왜 @click으로 메서드를 등록하는지 설명해 보세요.
       -->
-      <button @click="moveEdit">수정</button>
-      <button @click="remove">삭제</button>
-      <button @click="back">이전으로</button>
+      <button>수정</button>
+      <button>삭제</button>
+      <button>이전으로</button>
     </div>
   </section>
 </template>
